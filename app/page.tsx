@@ -1,11 +1,11 @@
 import { Button } from "@/components/ui/button";
+import { ArrowLeftCircle } from "lucide-react";
 import { Header } from "next/dist/lib/load-custom-routes";
 export default function Home() {
   return (
-    <main className=" ">
-
-      <h1>Lets build a app. Please God Help Me!!!</h1>
-      <Button>Hello</Button>
+    <main className="flex space-x-2 items-center animate-pulse">
+      <ArrowLeftCircle className = "w-12 h-12"/>
+      <h1 className="font-bold">Get started with New Document</h1>
     </main >
   );
 }
